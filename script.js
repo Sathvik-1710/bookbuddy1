@@ -1,7 +1,7 @@
 // Firebase configuration is loaded from config.js
 // Make sure config.js is included before this script in your HTML
 
-// Initialize Firebase
+// Initialize Firebase ok
 firebase.initializeApp(firebaseConfig);
 
 // Get a reference to the database
