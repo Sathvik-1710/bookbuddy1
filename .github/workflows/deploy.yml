@@ -15,7 +15,6 @@ jobs:
       - name: Create config.js
         run: |
           echo "const firebaseConfig = ${{ secrets.FIREBASE_CONFIG }};" > config.js
-          echo "firebase.initializeApp(firebaseConfig);" >> config.js
 
 
       - name: Deploy 🚀
